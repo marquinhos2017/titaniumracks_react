@@ -1,25 +1,34 @@
 import styled from 'styled-components'
 
-export const ContainerAboutUs = styled.div`
+export const ContainerRacksparaEstudio = styled.div`
   display: flex;
-  margin-top: 118px;
-  padding: 24px;
-`
+  margin-top: 56px;
 
-export const ContainerSobre = styled.div`
+  img {
+    max-width: 100%;
+  }
+`
+export const ContainerYT245 = styled.div`
   display: flex;
   align-items: center;
-  margin-right: 120px;
+  margin-left: 100px;
 
+  h4 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #7a7a7a;
+    margin-bottom: 12px;
+  }
   h3 {
+    margin: 0;
     font-size: 32px;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
     text-align: start;
   }
 
   p {
-    font-size: 20px;
+    font-size: 12px;
     font-weight: regular;
   }
 

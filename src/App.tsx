@@ -11,6 +11,7 @@ function App() {
     <>
       <Banner />
       <Products />
+      <div>asd</div>
     </>
   )
 }
