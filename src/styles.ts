@@ -1,5 +1,1 @@
-import styled from 'styled-components'
-
-export const Capa = styled.img`
-  width: 100%;
-`
+import { createGlobalStyle } from 'styled-components'

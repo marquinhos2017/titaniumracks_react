@@ -6,7 +6,7 @@ export const Img = styled.img`
   display: block;
   object-fit: cover;
   align-items: center;
-  justify-content: center;
+  padding: 50px;
 `
 
 export const ImageWrapper = styled.div`
@@ -14,6 +14,7 @@ export const ImageWrapper = styled.div`
   justify-content: center;
   align-items: center;
   margin-bottom: 16px; /* Espaço entre a imagem e o texto */
+  height: 200px;
 `
 
 export const ContainerItem = styled.div`

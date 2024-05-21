@@ -1,3 +1,4 @@
+import AboutUs from '../AboutUs'
 import Banner from '../Banner'
 import ItemProduct from '../ItemProduct/ItemProduct'
 import ItemProduct2 from '../ItemProduct/ItemProduct2'
@@ -12,6 +13,7 @@ const Products = () => (
         <ItemProduct2 />
         <ItemProduct />
       </ContainerProducts>
+      <AboutUs />
     </ContainerTela>
   </>
 )

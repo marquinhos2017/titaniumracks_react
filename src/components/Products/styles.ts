@@ -5,17 +5,11 @@ export const ContainerProducts = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   //border: 1px solid black;
   grid-column-gap: 33px;
+  padding: 24px;
 `
 
 export const ContainerTela = styled.div`
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Roboto, sans-serif;
-    list-style-type: none;
-  }
-  max-width: 1024px;
+  max-width: 1440px;
   margin: auto;
 
   h3 {
