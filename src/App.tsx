@@ -5,13 +5,21 @@ import Products from './components/Products/Products'
 import capa from './assets/images/IMG_4233 1 (1).png'
 
 import Banner from './components/Banner'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import IndexPage from './pages/Index'
+import RacksPiano from './pages/RacksTeclados'
+import GlobalStyle from './styles'
 
 function App() {
   return (
     <>
-      <Banner />
-      <Products />
-      <div>asd</div>
+      <GlobalStyle />
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<IndexPage />} />
+          <Route path="/racksteclados" element={<RacksPiano />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }

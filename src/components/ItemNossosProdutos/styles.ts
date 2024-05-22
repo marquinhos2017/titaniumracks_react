@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 export const Title = styled.div`
@@ -51,4 +52,10 @@ export const ContainerItemProduto = styled.div`
       background-color: black;
     }
   }
+`
+
+export const Lin = styled(Link)`
+  text-decoration: none;
+
+  color: black;
 `
