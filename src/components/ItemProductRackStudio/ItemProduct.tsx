@@ -15,7 +15,7 @@ const ItemProductRackStudio = () => {
   const navigate = useNavigate()
   return (
     <>
-      <LinkItem to="/produtos/1" state={{ scrollToBottom: false }}>
+      <LinkItem to="/produtos/1" state={{ scrollToTop: true }}>
         <ContainerItem>
           <ImageWrapper>
             <Img src={teclado} alt="" srcSet="" />

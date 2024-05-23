@@ -27,6 +27,10 @@ export const Square = styled.div`
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     max-width: 300px;
   }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    width: 200px;
+  }
 `
 
 export const ImageProduct = styled.img`
@@ -47,7 +51,7 @@ export const ImageProduct = styled.img`
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     position: absolute;
     top: 40%; /* Move a imagem para 50% da altura da Square */
-    left: 40%; /* Move a imagem para 50% da largura da Square */
+    left: 20%; /* Move a imagem para 50% da largura da Square */
     transform: translate(-50%, -50%); /* Centraliza a imagem */
     max-width: 50%;
     max-height: 100%;
@@ -91,6 +95,10 @@ export const ContainerItemProduto = styled.div`
   @media only screen and (max-width: 767px) {
     /* Seus estilos aqui */
     margin-bottom: 42px;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    width: 200px;
   }
 `
 

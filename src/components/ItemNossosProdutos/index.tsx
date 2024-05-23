@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom'
 const ItemNossosProdutos = () => {
   return (
     <>
-      <Lin to="/racksteclados">
+      <Lin to="/racksteclados" state={{ scrollToTop: true }}>
         <ContainerItemProduto>
           <Title>
             Rack <p>Studio</p>

@@ -13,6 +13,15 @@ export const ContainerImg = styled.div`
 
   img {
     max-width: 100%;
+    width: 80%;
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    margin-right: 36px;
   }
 `
 export const Information = styled.div`
@@ -26,6 +35,9 @@ export const Information = styled.div`
     font-size: 32px;
     padding: 0;
     margin: 0;
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      font-size: 24px;
+    }
   }
 
   p {
@@ -33,6 +45,9 @@ export const Information = styled.div`
     color: #7a7a7a;
     margin: 0;
     padding: 0;
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      font-size: 14px;
+    }
   }
 
   h5 {
@@ -44,7 +59,7 @@ export const Information = styled.div`
 
   hr {
     max-width: 920px;
-    border-bottom: 1px solid #000000;
+    border-bottom: 0.5px solid #000000;
   }
 `
 export const ButtonSaibaMais = styled.button`
@@ -58,6 +73,10 @@ export const ButtonSaibaMais = styled.button`
   font-size: 20px;
 
   border: none;
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    font-size: 14px;
+  }
 `
 
 export const About = styled.div``
@@ -69,6 +88,10 @@ export const Descricao = styled.div`
 
   h3 {
     font-size: 32px;
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      font-size: 24px;
+    }
   }
 
   h5 {
@@ -81,6 +104,10 @@ export const Descricao = styled.div`
     padding: 0;
     margin-bottom: 10px;
     font-size: 16px;
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      font-size: 12px;
+    }
   }
 `
 
@@ -108,4 +135,8 @@ export const ItemImg = styled.img`
   ); /* Garante que a imagem não exceda o tamanho da tela */
   height: auto; /* Mantém a proporção da imagem */
   padding: 24px;
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    max-width: calc(45% - 48px);
+  }
 `
