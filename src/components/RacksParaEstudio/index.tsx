@@ -1,4 +1,8 @@
-import { ContainerRacksparaEstudio, ContainerYT245 } from './styles'
+import {
+  ContainerImg,
+  ContainerRacksparaEstudio,
+  ContainerYT245
+} from './styles'
 import Yt245 from '../../assets/images/Mask group.png'
 import NossosProdutos from '../NossosProdutos'
 
@@ -6,9 +10,9 @@ const RacksparaEstudio = () => {
   return (
     <>
       <ContainerRacksparaEstudio>
-        <div>
+        <ContainerImg>
           <img src={Yt245} alt="" srcSet="" />
-        </div>
+        </ContainerImg>
         <ContainerYT245>
           <div>
             <h4>Racks para Estudio</h4>

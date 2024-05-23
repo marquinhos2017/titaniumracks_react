@@ -5,8 +5,15 @@ export const ContainerRacksparaEstudio = styled.div`
   margin-top: 56px;
 
   img {
-    max-width: 100%;
+    width: 100%;
+
+    max-height: auto;
+    object-fit: cover;
   }
+`
+
+export const ContainerImg = styled.div`
+  width: 60%;
 `
 export const ContainerYT245 = styled.div`
   display: flex;
