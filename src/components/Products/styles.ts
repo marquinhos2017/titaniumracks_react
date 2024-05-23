@@ -6,6 +6,16 @@ export const ContainerProducts = styled.div`
   //border: 1px solid black;
   grid-column-gap: 33px;
   padding: 24px;
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Seus estilos aqui */
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media only screen and (max-width: 767px) {
+    /* Seus estilos aqui */
+    grid-template-columns: 1fr;
+  }
 `
 
 export const ContainerTela = styled.div`

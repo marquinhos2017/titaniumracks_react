@@ -18,6 +18,11 @@ export const Square = styled.div`
   height: 220px;
   background-color: #d9d9d9;
   position: relative; /* Necessário para o posicionamento absoluto da imagem */
+
+  @media only screen and (max-width: 767px) {
+    /* Seus estilos aqui */
+    max-width: 350px;
+  }
 `
 
 export const ImageProduct = styled.img`
@@ -29,12 +34,22 @@ export const ImageProduct = styled.img`
   max-height: 100%;
   width: 350px;
   object-fit: cover;
+
+  @media only screen and (max-width: 767px) {
+    /* Seus estilos aqui */
+    left: 50%; /* Move a imagem para 50% da largura da Square */
+  }
 `
 export const ContainerImageItemProduct = styled.div`
   margin-left: 24px;
   width: 400px;
   height: 300px;
   position: relative;
+
+  @media only screen and (max-width: 767px) {
+    /* Seus estilos aqui */
+    width: 300px;
+  }
 `
 export const ContainerItemProduto = styled.div`
   display: flex; /* Mudado para flex */
@@ -47,10 +62,20 @@ export const ContainerItemProduto = styled.div`
   position: relative;
   overflow: hidden; /* Adicionado para evitar que os elementos ultrapassem o contêiner */
 
+  @media only screen and (max-width: 767px) {
+    /* Seus estilos aqui */
+    max-width: 100%;
+  }
+
   &:hover {
     ${Square} {
       background-color: black;
     }
+  }
+
+  @media only screen and (max-width: 767px) {
+    /* Seus estilos aqui */
+    margin-bottom: 42px;
   }
 `
 

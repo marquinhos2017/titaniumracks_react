@@ -17,4 +17,9 @@ export const Grid = styled.div`
   grid-gap: 20px; /* Ajuste conforme necessário */
   align-items: center; /* Centraliza os itens verticalmente */
   justify-items: center; /* Centraliza os itens horizontalmente */
+
+  @media only screen and (max-width: 767px) {
+    /* Seus estilos aqui */
+    grid-template-columns: 1fr;
+  }
 `
