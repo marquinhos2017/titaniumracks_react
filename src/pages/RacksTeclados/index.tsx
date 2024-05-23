@@ -21,8 +21,7 @@ const RacksPiano = () => {
   return (
     <>
       <ScrollToTop />
-      <Header />
-      <Banner />
+
       <BackgroundImg>
         <Texto>
           <h3>Uma nova maneira de organizar e mixar no seu estudio</h3>

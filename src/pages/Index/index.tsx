@@ -5,7 +5,6 @@ import Products from '../../components/Products/Products'
 const IndexPage = () => {
   return (
     <>
-      <Header />
       <Banner />
       <Products />
     </>

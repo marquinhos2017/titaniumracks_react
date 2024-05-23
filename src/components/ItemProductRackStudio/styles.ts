@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
+import { link } from 'fs'
 
 export const Img = styled.img`
   width: 100%;
@@ -24,6 +26,7 @@ export const ContainerItem = styled.div`
   //border: 1px solid red;
   margin: auto;
   padding: 32px;
+
   h6 {
     font-size: 10px;
     font-weight: normal;
@@ -34,6 +37,7 @@ export const ContainerItem = styled.div`
 
   h5 {
     margin: 0;
+    color: black;
   }
 
   &:hover {
@@ -58,4 +62,8 @@ export const ButtonSaibaMais = styled.button`
 export const IconKeyboard = styled.img`
   margin-top: 11px;
   margin-bottom: 27px;
+`
+
+export const LinkItem = styled(Link)`
+  text-decoration: none;
 `
