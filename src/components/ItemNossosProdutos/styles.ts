@@ -23,6 +23,10 @@ export const Square = styled.div`
     /* Seus estilos aqui */
     max-width: 350px;
   }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    max-width: 300px;
+  }
 `
 
 export const ImageProduct = styled.img`
@@ -38,6 +42,17 @@ export const ImageProduct = styled.img`
   @media only screen and (max-width: 767px) {
     /* Seus estilos aqui */
     left: 50%; /* Move a imagem para 50% da largura da Square */
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    position: absolute;
+    top: 40%; /* Move a imagem para 50% da altura da Square */
+    left: 40%; /* Move a imagem para 50% da largura da Square */
+    transform: translate(-50%, -50%); /* Centraliza a imagem */
+    max-width: 50%;
+    max-height: 100%;
+    width: 350px;
+    object-fit: cover;
   }
 `
 export const ContainerImageItemProduct = styled.div`
@@ -83,4 +98,17 @@ export const Lin = styled(Link)`
   text-decoration: none;
 
   color: black;
+`
+
+export const Quadrado = styled.div`
+  background-color: green;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+`
+
+export const ContainerQuadro = styled.div`
+  padding: 24px;
 `

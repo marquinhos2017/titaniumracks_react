@@ -4,8 +4,12 @@ export const ContainerProducts = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   //border: 1px solid black;
-  grid-column-gap: 33px;
+
   padding: 24px;
+
+  @media only screen and (max-width: 767px) {
+    grid-template-columns: 1fr;
+  }
 `
 
 export const ContainerTela = styled.div`

@@ -13,7 +13,8 @@ const ProductsRackStudio = () => (
       <h3></h3>
       <ContainerProducts>
         <ItemProductRackStudio />
-        <ItemProductRackStudio2 />
+        <ItemProductRackStudio />
+
         <ItemProductRackStudio />
       </ContainerProducts>
     </ContainerTela>

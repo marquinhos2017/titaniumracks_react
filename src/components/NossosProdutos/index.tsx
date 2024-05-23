@@ -1,6 +1,11 @@
 import ItemNossosProdutos from '../ItemNossosProdutos'
-import ItemNossosProdutosVariacao from '../ItemNossosProdutos/index_variacao'
-import { ContainerNossosProdutos, Grid, TituloNossosProdutos } from './styles'
+import { ContainerQuadro, Quadrado } from '../ItemNossosProdutos/styles'
+import {
+  ContainerNossosProdutos,
+  Grid,
+  GridTest,
+  TituloNossosProdutos
+} from './styles'
 
 const NossosProdutos = () => {
   return (
@@ -9,9 +14,9 @@ const NossosProdutos = () => {
         <TituloNossosProdutos>Nossos Produtos</TituloNossosProdutos>
         <Grid>
           <ItemNossosProdutos />
-          <ItemNossosProdutosVariacao />
           <ItemNossosProdutos />
-          <ItemNossosProdutosVariacao />
+          <ItemNossosProdutos />
+          <ItemNossosProdutos />
         </Grid>
       </ContainerNossosProdutos>
     </>

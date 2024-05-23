@@ -23,3 +23,11 @@ export const Grid = styled.div`
     grid-template-columns: 1fr;
   }
 `
+
+export const GridTest = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  align-items: center; /* Centraliza os itens verticalmente */
+  justify-items: center; /* Centraliza os itens horizontalmente */
+`

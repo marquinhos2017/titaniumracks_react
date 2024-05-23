@@ -14,8 +14,13 @@ export const BackgroundImg = styled.div`
   align-items: center; /* Centralizar verticalmente */
   position: relative;
   overflow: hidden;
+
+  @media only screen and (max-width: 767px) {
+    display: block;
+  }
 `
 export const Texto = styled.div`
+  //border: 1px solid white;
   padding: 120px;
   max-width: 45%;
   p {
@@ -30,11 +35,28 @@ export const Texto = styled.div`
   }
 
   animation: moveUp 1s ease-out;
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    padding: 24px;
+    max-width: 45%;
+
+    p {
+      display: flex;
+
+      font-size: 16px;
+      display: inline-block;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    padding: 24px;
+    max-width: 100%;
+  }
 `
 
 export const Imagem = styled.div`
   padding: 20px;
-  width: 60%;
+  width: 50%;
   display: flex;
   justify-content: center; /* Para centralizar horizontalmente */
   align-items: center; /* Para centralizar verticalmente */
@@ -47,6 +69,18 @@ export const Imagem = styled.div`
     position: relative;
     overflow: hidden;
     animation: moveUp 1s ease-out;
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      width: 500px;
+    }
+
+    @media only screen and (max-width: 767px) {
+      width: 70%;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    width: 100%;
   }
 
   @keyframes moveUp {

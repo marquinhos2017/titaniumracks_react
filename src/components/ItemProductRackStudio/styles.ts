@@ -9,6 +9,14 @@ export const Img = styled.img`
   object-fit: cover;
   align-items: center;
   padding: 50px;
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Espaço entre a imagem e o texto */
+    object-fit: contain;
+  }
 `
 
 export const ImageWrapper = styled.div`
@@ -18,6 +26,15 @@ export const ImageWrapper = styled.div`
   margin-bottom: 16px; /* Espaço entre a imagem e o texto */
   height: 300px;
   margin-bottom: 64px;
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px; /* Espaço entre a imagem e o texto */
+    height: 300px;
+    margin-bottom: 32px;
+  }
 `
 
 export const ContainerItem = styled.div`

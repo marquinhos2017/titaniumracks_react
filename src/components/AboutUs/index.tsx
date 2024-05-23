@@ -6,7 +6,7 @@ const AboutUs = () => {
       <ContainerAboutUs>
         <ContainerSobre>
           <div>
-            <h3>Abouts US</h3>
+            <h2>Abouts US</h2>
             <p>
               Empresa 100% brasileira há mais de 20 anos no mercado fabricando
               Racks modulares em alumínio com acabamento anodizado.{' '}

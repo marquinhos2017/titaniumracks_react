@@ -5,7 +5,7 @@ import {
   Square,
   Title
 } from './styles'
-import teclado from '../../assets/images/b1060ed580b74742ac599a9eb6054bad-removebg-preview 1.png'
+import teclado from '../../assets/images/b.png'
 
 const ItemNossosProdutosVariacao = () => {
   return (
