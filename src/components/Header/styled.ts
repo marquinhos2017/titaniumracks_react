@@ -17,6 +17,8 @@ export const HeaderUl = styled.ul`
     display:none;
   }
 
+
+
   li {
     margin-right: 50px;
     list-style-type: none;
@@ -44,6 +46,9 @@ export const HeaderUlB = styled.ul<HeaderUlProps>`
   align-items: center;
   flex-grow: 1;
   list-style-type: none;
+  display:none;
+
+  
 
   @media only screen and (max-width: 767px) {
     /* Seus estilos aqui */
