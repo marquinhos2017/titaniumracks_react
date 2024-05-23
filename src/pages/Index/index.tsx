@@ -8,7 +8,6 @@ const IndexPage = () => {
       <Header />
       <Banner />
       <Products />
-      <div>asd</div>
     </>
   )
 }

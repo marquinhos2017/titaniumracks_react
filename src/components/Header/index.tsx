@@ -1,9 +1,12 @@
 import { HeaderContainer, HeaderUl } from './styled'
 import logo from '../../assets/images/logo.png'
+import { Link } from 'react-router-dom'
 
 export const Header = () => (
   <HeaderContainer>
-    <img src={logo} alt="" srcSet="" />
+    <Link to="/">
+      <img src={logo} alt="" srcSet="" />
+    </Link>
     <HeaderUl>
       <li>HOME</li>
       <li>CONHECA A TITANIUM</li>

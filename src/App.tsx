@@ -9,6 +9,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import IndexPage from './pages/Index'
 import RacksPiano from './pages/RacksTeclados'
 import GlobalStyle from './styles'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route index element={<IndexPage />} />
           <Route path="/racksteclados" element={<RacksPiano />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   )

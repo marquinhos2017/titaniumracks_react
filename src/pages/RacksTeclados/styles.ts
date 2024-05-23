@@ -17,7 +17,7 @@ export const BackgroundImg = styled.div`
 `
 export const Texto = styled.div`
   padding: 120px;
-  max-width: 40%;
+  max-width: 45%;
   p {
     font-size: 16px;
     color: white;
@@ -33,7 +33,7 @@ export const Texto = styled.div`
 `
 
 export const Imagem = styled.div`
-  padding: 120px;
+  padding: 20px;
   width: 60%;
   display: flex;
   justify-content: center; /* Para centralizar horizontalmente */
