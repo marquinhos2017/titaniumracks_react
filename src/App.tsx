@@ -12,18 +12,15 @@ import GlobalStyle from './styles'
 import Footer from './components/Footer'
 import { RacksTecladoItem } from './pages/RacksTecladoItem'
 import Header from './components/Header'
+import Rotas from './routes'
 
 function App() {
   return (
     <>
-      <GlobalStyle />
       <BrowserRouter>
+        <GlobalStyle />
         <Header />
-        <Routes>
-          <Route index element={<IndexPage />} />
-          <Route path="/racksteclados" element={<RacksPiano />} />
-          <Route path="/produtos/:id" element={<RacksTecladoItem />} />
-        </Routes>
+        <Rotas />
         <Footer />
       </BrowserRouter>
     </>
