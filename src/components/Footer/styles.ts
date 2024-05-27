@@ -20,6 +20,25 @@ export const Lista = styled.ul`
     text-align: center;
     items-align: ceter;
   }
+
+  @media only screen and (max-width: 767px) {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 100px;
+
+    li {
+      margin-top: 8px;
+      font-size: 14px;
+    }
+
+    h6 {
+      font-size: 16px;
+      margin-bottom: 36px;
+      text-align: center;
+      items-align: ceter;
+    }
+  }
 `
 export const FooterA = styled.footer`
   background-color: #3c3c3c;
@@ -32,6 +51,22 @@ export const FooterA = styled.footer`
   }
 
   h6 {
+  }
+
+  @media only screen and (max-width: 767px) {
+    background-color: #3c3c3c;
+    color: white;
+
+    padding: 32px 24px;
+
+    p {
+      margin-top: 24px;
+      font-size: 12px;
+    }
+
+    h6 {
+      fonts-size: 12px;
+    }
   }
 `
 

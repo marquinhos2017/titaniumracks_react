@@ -75,7 +75,9 @@ export const Imagem = styled.div`
     }
 
     @media only screen and (max-width: 767px) {
-      width: 70%;
+      width: 100%;
+      left: 0px;
+      padding: 24px;
     }
   }
 
