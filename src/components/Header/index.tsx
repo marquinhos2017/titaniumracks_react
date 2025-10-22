@@ -1,5 +1,5 @@
 import { HeaderContainer, HeaderUl, HeaderUlB } from './styled'
-import logo from '../../assets/images/logo.png'
+import logo from '../../assets/images/logoa.png'
 import { Link } from 'react-router-dom'
 import { styled } from 'styled-components'
 import { useState } from 'react'
@@ -28,7 +28,7 @@ export const Header = () => {
       </Link>
       <HeaderUl>
         <li>HOME</li>
-        <li>CONHECA A TITANIUM</li>
+        <li>CONHECA A STAND</li>
         <li>PRODUTOS</li>
         <li>CONTATO</li>
       </HeaderUl>
