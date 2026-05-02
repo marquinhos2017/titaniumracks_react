@@ -9,10 +9,7 @@ export const Footer = () => (
             <b>Products</b>
           </h3>
           <li>Custom</li>
-          <li>Estudio</li>
           <li>Teclado</li>
-          <li>DJ</li>
-          <li>Audio e Video </li>
           <li>Acessorios</li>
           <li>Periferico</li>
         </Lista>
@@ -25,14 +22,14 @@ export const Footer = () => (
           <li>Contact</li>
         </Lista>
       </FooterContainer>
-      <p>titanium@titaniumracks.com.br</p>
+      <p>istand@gmail.com</p>
       <Links>
         <ul>
           <li>Home</li>
           <li>About Us</li>
           <li>Contact Us</li>
         </ul>
-        <h6>2024 © Titanium Racks. All rights reserved.</h6>
+        <h6>2025 © istand. All rights reserved.</h6>
       </Links>
     </FooterA>
   </>

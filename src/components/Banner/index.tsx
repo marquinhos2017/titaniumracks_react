@@ -1,5 +1,5 @@
 import { Capa } from './styles'
-import capa from '../../assets/images/IMG_4233 1 (1).png'
+import capa from '../../assets/images/a.jpeg'
 
 const Banner = () => <Capa src={capa} alt="" srcSet="" />
 
